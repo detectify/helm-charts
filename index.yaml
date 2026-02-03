@@ -1,3 +1,30 @@
 apiVersion: v1
-entries: {}
-generated: "2026-02-03T10:30:34.860561+01:00"
+entries:
+  internal-scanning-agent:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-02-03T10:14:59.530486935Z"
+    description: Detectify Internal Scanning Agent - Deploy security scanning infrastructure
+      to your Kubernetes cluster
+    digest: 788af5781654c30fc6d87e279d9b4de2674fbc103403fa66ce2a6fd93e7937fb
+    home: https://detectify.com/product/internal-scanning
+    icon: https://raw.githubusercontent.com/detectify/internal-scanning-deployment/main/helm-charts/internal-scanning-agent/icon.svg
+    keywords:
+    - security
+    - scanner
+    - vulnerability
+    - dast
+    - detectify
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: support@detectify.com
+      name: Detectify
+      url: https://detectify.com
+    name: internal-scanning-agent
+    sources:
+    - https://github.com/detectify/internal-scanning-deployment
+    type: application
+    urls:
+    - https://detectify.github.io/helm-charts/internal-scanning-agent-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-02-03T10:14:59.529273276Z"
