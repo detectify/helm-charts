@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detectify Helm Charts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #252734;
+            color: #ffffff;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        header {
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            height: 32px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .accent {
+            color: #ffbc00;
+        }
+
+        .subtitle {
+            font-size: 1.125rem;
+            color: #a0a3b1;
+            max-width: 600px;
+        }
+
+        section {
+            margin-bottom: 48px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #ffbc00;
+        }
+
+        .code-block {
+            background: #1a1c24;
+            border: 1px solid #3a3d4a;
+            border-radius: 8px;
+            padding: 20px 24px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+            font-size: 0.875rem;
+            color: #e4e6ed;
+        }
+
+        .code-block code {
+            display: block;
+            line-height: 1.8;
+        }
+
+        .comment {
+            color: #6b7280;
+        }
+
+        p {
+            color: #a0a3b1;
+        }
+
+        a {
+            color: #ffbc00;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+
+        .link-arrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+        }
+
+        .link-arrow svg {
+            transition: transform 0.2s;
+        }
+
+        .link-arrow:hover svg {
+            transform: translateX(4px);
+        }
+
+        footer {
+            margin-top: 80px;
+            padding-top: 24px;
+            border-top: 1px solid #3a3d4a;
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: #a0a3b1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <svg class="logo" viewBox="0 0 512 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <text x="0" y="70" font-family="Inter, sans-serif" font-size="72" font-weight="700" fill="#ffffff">detectify</text>
+            </svg>
+            <h1>Helm <span class="accent">Charts</span></h1>
+            <p class="subtitle">Official Helm charts repository for deploying Detectify services on Kubernetes.</p>
+        </header>
+
+        <section>
+            <h2>Quick Start</h2>
+            <div class="code-block">
+                <code><span class="comment"># Add the Detectify Helm repository</span></code>
+                <code>helm repo add detectify https://detectify.github.io/helm-charts</code>
+                <code></code>
+                <code><span class="comment"># Update your local chart cache</span></code>
+                <code>helm repo update</code>
+                <code></code>
+                <code><span class="comment"># Search for available charts</span></code>
+                <code>helm search repo detectify</code>
+            </div>
+        </section>
+
+        <section>
+            <h2>Available Charts</h2>
+            <p>Browse the <a href="index.yaml" class="link-arrow">repository index <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M6.22 3.22a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06L9.94 8 6.22 4.28a.75.75 0 010-1.06z"/></svg></a> for the full list of available charts and versions.</p>
+        </section>
+
+        <footer>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> <a href="https://detectify.com">Detectify AB</a></p>
+        </footer>
+    </div>
+</body>
+</html>
