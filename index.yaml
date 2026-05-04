@@ -3,7 +3,33 @@ entries:
   internal-scanning-agent:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-04-23T12:33:07.655183578Z"
+    created: "2026-05-04T13:55:35.744509051Z"
+    description: Detectify Internal Scanning Agent - Deploy security scanning infrastructure
+      to your Kubernetes cluster
+    digest: 7e51a45a1366ed0738964acedb68384203f7f9db32b977280ef46d012f9f5578
+    home: https://detectify.com/product/internal-scanning
+    icon: https://raw.githubusercontent.com/detectify/internal-scanning-deployment/main/helm-charts/internal-scanning-agent/icon.svg
+    keywords:
+    - security
+    - scanner
+    - vulnerability
+    - dast
+    - detectify
+    kubeVersion: '>=1.29.0-0'
+    maintainers:
+    - email: support@detectify.com
+      name: Detectify
+      url: https://detectify.com
+    name: internal-scanning-agent
+    sources:
+    - https://github.com/detectify/internal-scanning-deployment
+    type: application
+    urls:
+    - https://detectify.github.io/helm-charts/internal-scanning-agent-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2026-05-04T13:55:35.743471676Z"
     description: Detectify Internal Scanning Agent - Deploy security scanning infrastructure
       to your Kubernetes cluster
     digest: e141dbc6796c3f4506732cd56756cb94323167c7d3e4ea49baff5a86ea230ffa
@@ -29,7 +55,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-04-23T12:33:07.651644884Z"
+    created: "2026-05-04T13:55:35.74236323Z"
     description: Detectify Internal Scanning Agent - Deploy security scanning infrastructure
       to your Kubernetes cluster
     digest: 216a50138a63609068372e545db27d1b8b4b6dc8a55e4f80eb06c30032f418a3
@@ -55,7 +81,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-04-23T12:33:07.649513285Z"
+    created: "2026-05-04T13:55:35.740741971Z"
     description: Detectify Internal Scanning Agent - Deploy security scanning infrastructure
       to your Kubernetes cluster
     digest: 66c0c2e4031bfda4a17375ebbac32221ba3f910a6a82d62a358e498e15b905d2
@@ -81,7 +107,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-04-23T12:33:07.646825776Z"
+    created: "2026-05-04T13:55:35.739563113Z"
     description: Detectify Internal Scanning Agent - Deploy security scanning infrastructure
       to your Kubernetes cluster
     digest: 933fe36989cd7e2a42fb16603ad3e8b298ac3aa43753b2585b5566b48fbd4cd8
@@ -107,7 +133,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-04-23T12:33:07.643264501Z"
+    created: "2026-05-04T13:55:35.738347034Z"
     description: Detectify Internal Scanning Agent - Deploy security scanning infrastructure
       to your Kubernetes cluster
     digest: 788af5781654c30fc6d87e279d9b4de2674fbc103403fa66ce2a6fd93e7937fb
@@ -131,4 +157,4 @@ entries:
     urls:
     - https://detectify.github.io/helm-charts/internal-scanning-agent-1.0.0.tgz
     version: 1.0.0
-generated: "2026-04-23T12:33:07.641321075Z"
+generated: "2026-05-04T13:55:35.737056823Z"
